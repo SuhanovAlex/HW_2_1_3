@@ -10,7 +10,7 @@ struct address
 };
 
 // функция для вывода структуры на консоль
-void printStructureAddress (address addr) {
+void printStructureAddress (const address& addr) {
   std::cout << "Город: " << addr.city << std::endl;
   std::cout << "Улица: " << addr.street << std::endl;
   std::cout << "Номер дома: " << addr.building << std::endl;
